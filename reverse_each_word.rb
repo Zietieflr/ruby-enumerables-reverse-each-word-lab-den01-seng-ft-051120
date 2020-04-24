@@ -7,5 +7,5 @@
 
 def reverse_each_word (sentence)
   words = sentence.split();
-  words.collect.join() { |word| word.reverse }; 
+  words.collect.join(" ") { |word| word.reverse }; 
 end
